@@ -41,7 +41,7 @@ Agent执行步骤：
 
 1. 强制执行skill初始化脚本
 2. `存款准备金率`是宏观数据，根据api_doc_index.md，应在`macro-economy.md`中查找API
-3. 使用`macro-economy_index.md`快速定位满足需求的API在API文档中的行号
-4. 使用read工具读取文档特定行（50行±50行=第1-100行）
+3. 使用`macro-economy_index.md`快速定位满足需求的API接口为`econ.get_reserve_ratio`，行范围87-131
+4. 使用read工具读取`macro-economy.md`中读取接口头50行（第87到87+50行）
 5. 从read工具返回中获取API定义和参数信息
-6. `econ.get_reserve_ratio`可以用来获取中国的存款准备金率，让我开始编写代码
+6. 让我开始编写代码
